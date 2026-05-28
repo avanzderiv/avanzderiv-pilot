@@ -1,10 +1,11 @@
 .env
 state/
 warehouse/
-*.duckdb
 *.sqlite
+*.duckdb
 *.db
 *.log
 dist/
 *.tgz
+.template.tar
 __pycache__/
