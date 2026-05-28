@@ -1,0 +1,10 @@
+.env
+state/
+warehouse/
+*.duckdb
+*.sqlite
+*.db
+*.log
+dist/
+*.tgz
+__pycache__/

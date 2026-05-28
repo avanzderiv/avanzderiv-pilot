@@ -1,0 +1,14 @@
+{
+  "contract_id": "internal_policy_v1",
+  "version": "v1",
+  "context": "internal",
+  "policy": {
+    "deny_classes": [],
+    "tokenize_classes": [],
+    "strict": false
+  },
+  "serving": {
+    "internal_schema": "avanzderiv_internal"
+  }
+}
+
