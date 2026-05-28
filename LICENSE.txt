@@ -1,0 +1,59 @@
+AVANZDERIV PILOT EDITION LICENSE 1.0
+
+Copyright (c) 2026 AVANZDATA
+
+Grant of License
+
+Avanzderiv Pilot Edition ("Software") is provided free of charge for:
+
+* evaluation,
+* research,
+* educational,
+* demonstration,
+* and non-commercial internal testing purposes only.
+
+2. Restrictions
+
+You may not:
+
+* use the Software in commercial production environments;
+* sublicense, resell, rent, lease, or redistribute the Software;
+* provide the Software as a managed or hosted service;
+* reverse engineer, decompile, or modify the Software except where prohibited by applicable law;
+* remove copyright or attribution notices.
+
+3. Enterprise Licensing
+
+Commercial deployment, production usage, custom integrations, OEM redistribution, or operational monetization require a separate Avanzderiv Enterprise license agreement.
+
+4. Ownership
+
+The Software is licensed, not sold.
+All rights, title, intellectual property rights, and interest in the Software remain the exclusive property of  AVANZDATA.
+
+5. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+* MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE,
+* NON-INFRINGEMENT,
+* PERFORMANCE,
+* DATA ACCURACY,
+* OR SECURITY.
+
+6. Limitation of Liability
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
+
+7. Termination
+
+This license terminates automatically upon violation of any term.
+Upon termination, all copies of the Software must be destroyed.
+
+8. Governing Terms
+
+This license constitutes the complete agreement governing use of the Software unless superseded by a separate written commercial agreement.
+
+Avanzderiv Pilot Edition
+Runtime Data Compiler Engine
