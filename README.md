@@ -5,7 +5,7 @@ Avanzderiv Pilot Edition 2.0 is a free local evaluation release for testing the 
 This repository contains the public setup assets for the Pilot Edition. The Avanzderiv engine is distributed separately as a public OCI-compatible container image.
 
 ```text
-Container image: ghcr.io/avanzderiv/avanzderiv-pilot:2.0
+Container image: ghcr.io/avanzderiv/avanzderiv-pilot:2.0.1
 Supported platforms: linux/amd64, linux/arm64
 ```
 
@@ -199,7 +199,7 @@ The setup script supports:
 
 ```bash
 AVANZDERIV_BASE=/custom/runtime/path
-AVANZDERIV_IMAGE=ghcr.io/avanzderiv/avanzderiv-pilot:2.0
+AVANZDERIV_IMAGE=ghcr.io/avanzderiv/avanzderiv-pilot:2.0.1
 ```
 
 Example:
@@ -281,7 +281,12 @@ or:
 
 Make sure you run setup from the repository root.
 
+## Container image version
+
+Avanzderiv Pilot Edition remains version 2.0.
+
+The container image tag `2.0.1` is a packaging correction for Docker/Podman distribution. It does not change the engine, the PO → VO → RO model, the Pilot scope, or the 100,000 record limit.
+
 ## License
 
 Avanzderiv Pilot Edition 2.0 is provided for evaluation. See `LICENSE` for usage terms.
-

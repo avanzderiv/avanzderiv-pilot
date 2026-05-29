@@ -18,7 +18,7 @@ set -euo pipefail
 
 EDITION="2.0_PE"
 ROOT="/opt/avanzderiv"
-PUBLIC_IMAGE="${AVANZDERIV_IMAGE:-ghcr.io/avanzderiv/avanzderiv-pilot:2.0}"
+PUBLIC_IMAGE="${AVANZDERIV_IMAGE:-ghcr.io/avanzderiv/avanzderiv-pilot:2.0.1}"
 
 OS=""
 ARCH=""
