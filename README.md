@@ -82,7 +82,7 @@ You also need:
 git clone https://github.com/avanzderiv/avanzderiv-pilot.git
 cd avanzderiv-pilot
 
-bash setup.sh docker-pull
+AVANZDERIV_BASE="$HOME/avanzderiv" bash setup.sh docker-pull
 export PATH="$HOME/.local/bin:$PATH"
 
 avanzderiv status
@@ -103,7 +103,8 @@ Expected result: JSON lines containing analytical fields and a `subject_token`.
 git clone https://github.com/avanzderiv/avanzderiv-pilot.git
 cd avanzderiv-pilot
 
-bash setup.sh podman-pull
+AVANZDERIV_BASE="$HOME/avanzderiv" bash setup.sh podman-pull
+
 export PATH="$HOME/.local/bin:$PATH"
 
 avanzderiv status
@@ -286,6 +287,14 @@ Make sure you run setup from the repository root.
 Avanzderiv Pilot Edition remains version 2.0.
 
 The container image tag `2.0.1` is a packaging correction for Docker/Podman distribution. It does not change the engine, the PO → VO → RO model, the Pilot scope, or the 100,000 record limit.
+
+## Run as a normal user
+
+The recommended setup is to run AvanzDeriv as a normal user, not as `root`.
+
+The setup script creates local runtime files, `.env`, `state/`, and `warehouse/` under the configured AvanzDeriv runtime directory.
+
+If you do not have permission to write to `/opt/avanzderiv`, use a user-writable directory:
 
 ## License
 
